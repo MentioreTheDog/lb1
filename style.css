@@ -69,3 +69,29 @@ button{
 button:hover{
     background-color: #ff0066;
 }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    padding: 10px;
+  }
+  
+  .tabs a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .tabs span {
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .tabs span.active {
+    color: #fff;
+    background-color: #db7093;
+    border-radius: 5px;
+  }
